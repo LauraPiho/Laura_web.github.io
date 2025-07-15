@@ -18,69 +18,68 @@
   <!-- Navigation -->
   <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-5xl mx-auto px-4 flex justify-center gap-4 py-2 text-sm font-medium text-gray-700">
-      <a href="#about" class="hover:text-black">About</a>
-      <a href="#current-projects" class="hover:text-black">Current Projects</a>
-      <a href="#past-projects" class="hover:text-black">Past Projects</a>
-      <a href="#blog" class="hover:text-black">Blog</a>
+      <a href="index.html" class="hover:text-black text-black font-semibold">Home</a>
+      <a href="about.html" class="hover:text-black">About</a>
+      <a href="current-projects.html" class="hover:text-black">Current Projects</a>
+      <a href="past-projects.html" class="hover:text-black">Past Projects</a>
+      <a href="blog.html" class="hover:text-black">Blog</a>
     </div>
   </nav>
 
-  <!-- About -->
-  <section id="about" class="py-12 bg-white">
+  <!-- About Preview -->
+  <section class="py-12 bg-white">
     <div class="max-w-3xl mx-auto px-4 text-center">
       <h2 class="text-2xl font-semibold mb-4">About</h2>
-      <p>
+      <p class="mb-6">
         I am a researcher at the Center for Biorobotics, Tallinn University of Technology. The focus of my research is signal processing and data analysis for environmental applications. The main concentration of my work lies in extreme and underwater environments.
       </p>
+      <a href="about.html" class="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+        Learn More About My Research
+      </a>
     </div>
   </section>
 
-  <!-- Current Projects -->
-  <section id="current-projects" class="py-12 bg-gray-50">
+  <!-- Projects Overview -->
+  <section class="py-12 bg-gray-50">
     <div class="max-w-5xl mx-auto px-4">
-      <h2 class="text-2xl font-semibold mb-6 text-center">Current Projects</h2>
+      <h2 class="text-2xl font-semibold mb-8 text-center">Research Overview</h2>
       <div class="grid gap-6 md:grid-cols-2">
-        <article class="p-6 bg-white shadow-sm rounded-xl border border-gray-100">
-          <h3 class="text-xl font-semibold mb-2">AutoMap Extreme</h3>
-          <p class="text-sm text-gray-600">The concentration of the project is data validation, analysis an mapping for applications in extreme environments.</p>
-        </article>
-        <article class="p-6 bg-white shadow-sm rounded-xl border border-gray-100">
-          <h3 class="text-xl font-semibold mb-2">The Iliad Project</h3>
-          <p class="text-sm text-gray-600">The EU-funded ILIAD project is building an interoperable Digital Twin of the Ocean to simulate climate scenarios and support decision-making. By integrating diverse data sources and models, it enables accurate forecasting of marine systems. </p>
-        </article>
+        <div class="p-6 bg-white shadow-sm rounded-xl border border-gray-100">
+          <h3 class="text-xl font-semibold mb-3">Current Projects</h3>
+          <p class="text-gray-600 mb-4">
+            Explore my ongoing research in extreme environment monitoring and ocean digital twins, including the AutoMap Extreme and ILIAD projects.
+          </p>
+          <a href="current-projects.html" class="inline-block px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm">
+            View Current Work
+          </a>
+        </div>
+        <div class="p-6 bg-white shadow-sm rounded-xl border border-gray-100">
+          <h3 class="text-xl font-semibold mb-3">Past Projects</h3>
+          <p class="text-gray-600 mb-4">
+            Discover completed research initiatives including Arctic adaptation studies, ice acceleration analysis, and bio-inspired robotics.
+          </p>
+          <a href="past-projects.html" class="inline-block px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm">
+            Explore Past Work
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Past Projects -->
-  <section id="past-projects" class="py-12 bg-white">
-    <div class="max-w-5xl mx-auto px-4">
-      <h2 class="text-2xl font-semibold mb-6 text-center">Past Projects</h2>
-      <ul class="space-y-4">
-        <li class="border-l-4 border-gray-300 pl-4">
-          <strong>CostAdapt</strong> – Adapting to the rapidly changing Arctic Implications of changing hydrodynamic conditions on the coastal-marine environments in Svalbard: A joint study of Tallinn University of Technology and The University Center in Svalbard (2022-2024).
-        </li>
-        <li class="border-l-4 border-gray-300 pl-4">
-          <strong>MAMMAMIA</strong> – Multi-scAle-Multi-Method Analysis of Mechanisms causing Ice Acceleration (2020-2023).
-        </li>
-        <li class="border-l-4 border-gray-300 pl-4">
-          <strong>ROBIMINERS</strong> – Resilient Bio-inspired Modular Robotic Miners (2019-2023).
-        </li>        
-        <li class="border-l-4 border-gray-300 pl-4">
-          <strong>Multiscale Natural Flow Sensing for Coasts and Rivers</strong> – Project aiming to develop new sensors for flow sensing (2021).
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Blog -->
-  <section id="blog" class="py-12 bg-white">
-    <div class="max-w-3xl mx-auto px-4">
-      <h2 class="text-2xl font-semibold mb-6 text-center">Blog</h2>
-      <article class="mb-6">
-        <h3 class="text-xl font-semibold mb-1">📢 Reflections from Oceans Brest 2025</h3>
-        <p class="text-sm text-gray-600"></p>
-      </article>
+  <!-- Blog Preview -->
+  <section class="py-12 bg-white">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold mb-6">Latest Insights</h2>
+      <div class="p-6 bg-gray-50 rounded-xl mb-6">
+        <h3 class="text-xl font-semibold mb-2">📢 Reflections from Oceans Brest 2025</h3>
+        <p class="text-gray-600 mb-4">
+          Key insights from the recent marine science conference, including advances in AI integration and real-time monitoring systems for climate adaptation.
+        </p>
+        <span class="text-sm text-gray-500">July 15, 2025</span>
+      </div>
+      <a href="blog.html" class="inline-block px-6 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">
+        Read More Posts
+      </a>
     </div>
   </section>
 

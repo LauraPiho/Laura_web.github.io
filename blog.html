@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Dr. Laura Piho</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans leading-relaxed antialiased">
+  <!-- Hero -->
+  <header class="bg-gray-100 border-b border-gray-200">
+    <div class="max-w-5xl mx-auto px-4 py-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Dr. Laura Piho</h1>
+      <p class="text-lg text-gray-600">Signal Processing | Data analysis | Environmental sensing</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-4 flex justify-center gap-4 py-2 text-sm font-medium text-gray-700">
+      <a href="index.html" class="hover:text-black">Home</a>
+      <a href="about.html" class="hover:text-black">About</a>
+      <a href="current-projects.html" class="hover:text-black">Current Projects</a>
+      <a href="past-projects.html" class="hover:text-black">Past Projects</a>
+      <a href="blog.html" class="hover:text-black text-black font-semibold">Blog</a>
+    </div>
+  </nav>
+
+  <!-- Blog -->
+  <section class="py-12 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-8 text-center">Blog</h2>
+      
+      <!-- Featured Post -->
+      <article class="mb-12 p-8 bg-gradient-to-r from-blue-50 to-gray-50 rounded-xl border border-gray-200">
+        <div class="flex items-center mb-4">
+          <span class="text-2xl mr-3">📢</span>
+          <div>
+            <h3 class="text-2xl font-semibold">Reflections from Oceans Brest 2025</h3>
+            <p class="text-sm text-gray-600">July 15, 2025 • Featured Post</p>
+          </div>
+        </div>
+        <p class="text-gray-700 mb-4">
+          The Oceans Brest 2025 conference brought together leading marine scientists, policy makers, and technology innovators to discuss the future of ocean research and conservation. As a participant, I had the opportunity to present our latest findings on environmental sensing in extreme marine conditions.
+        </p>
+        <div class="prose prose-gray max-w-none">
+          <h4 class="font-semibold mb-2">Key Takeaways:</h4>
+          <ul class="list-disc pl-6 mb-4">
+            <li>Increasing integration of AI and machine learning in oceanographic research</li>
+            <li>Growing emphasis on real-time monitoring systems for climate adaptation</li>
+            <li>Collaborative approaches to addressing Arctic environmental changes</li>
+            <li>Innovation in underwater robotics and autonomous systems</li>
+          </ul>
+          <p class="text-gray-700">
+            The conference reinforced the critical importance of our work in extreme environment monitoring and the potential for our research to contribute to global climate understanding and adaptation strategies.
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-gray-200">
+          <span class="text-sm text-gray-500">Tags: Conference, Marine Science, Climate Research, Technology</span>
+        </div>
+      </article>
+
+      <!-- Upcoming Posts -->
+      <div class="grid gap-6 md:grid-cols-2">
+        <article class="p-6 bg-white shadow-sm rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+          <h3 class="text-xl font-semibold mb-2">Signal Processing in Arctic Conditions</h3>
+          <p class="text-sm text-gray-600 mb-3">Coming Soon • Technical Deep Dive</p>
+          <p class="text-gray-700 mb-4">
+            An in-depth look at the challenges and solutions for signal processing in extreme Arctic environments, including noise reduction techniques and adaptive algorithms.
+          </p>
+          <span class="text-sm text-gray-500">Tags: Signal Processing, Arctic Research, Technology</span>
+        </article>
+
+        <article class="p-6 bg-white shadow-sm rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+          <h3 class="text-xl font-semibold mb-2">Collaboration Across Continents</h3>
+          <p class="text-sm text-gray-600 mb-3">Coming Soon • Research Insights</p>
+          <p class="text-gray-700 mb-4">
+            Exploring the importance of international collaboration in polar research and how joint projects like CostAdapt have advanced our understanding of Arctic systems.
+          </p>
+          <span class="text-sm text-gray-500">Tags: Collaboration, Arctic, International Research</span>
+        </article>
+
+        <article class="p-6 bg-white shadow-sm rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+          <h3 class="text-xl font-semibold mb-2">The Future of Environmental Sensing</h3>
+          <p class="text-sm text-gray-600 mb-3">Coming Soon • Opinion</p>
+          <p class="text-gray-700 mb-4">
+            Thoughts on emerging trends in environmental monitoring technology and how they will shape the next decade of research in extreme environments.
+          </p>
+          <span class="text-sm text-gray-500">Tags: Future Tech, Environmental Monitoring, Innovation</span>
+        </article>
+
+        <article class="p-6 bg-white shadow-sm rounded-xl border border-gray-100 hover:shadow-md transition-shadow">
+          <h3 class="text-xl font-semibold mb-2">Lessons from the Field</h3>
+          <p class="text-sm text-gray-600 mb-3">Coming Soon • Field Notes</p>
+          <p class="text-gray-700 mb-4">
+            Personal reflections and practical insights gained from fieldwork in challenging environments, from equipment failures to breakthrough moments.
+          </p>
+          <span class="text-sm text-gray-500">Tags: Fieldwork, Personal Insights, Research Methods</span>
+        </article>
+      </div>
+
+      <!-- Newsletter Signup -->
+      <div class="mt-12 text-center p-8 bg-gray-50 rounded-xl">
+        <h3 class="text-xl font-semibold mb-4">Stay Updated</h3>
+        <p class="text-gray-600 mb-6">
+          Subscribe to receive updates on new blog posts and research findings.
+        </p>
+        <div class="max-w-md mx-auto flex gap-2">
+          <input 
+            type="email" 
+            placeholder="Enter your email" 
+            class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <button class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 border-t border-gray-200 bg-gray-50 text-center text-sm text-gray-500">
+    <p>&copy; 2025 Dr. Laura Piho. All rights reserved.</p>
+    <p>Last updated: July 15, 2025</p>
+  </footer>
+</body>
+</html>
